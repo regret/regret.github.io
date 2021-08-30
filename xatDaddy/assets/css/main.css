@@ -19,7 +19,21 @@ body {
     padding: 10px;
     }
 }
-.youtube {
+.youtube iframe {
+  transition: all 1s ease-in-out;
+  position: absolute;
+  right: -4%;
+  top: 30%;
+  bottom: 0;
+}
+.youtube iframe:hover {
+  transition: all 1s ease-in-out;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  bottom: 0;
+}
+/*.youtube {
   position: absolute;
   right: -4%;
   top: 30%;
@@ -31,7 +45,7 @@ body {
   right: 0;
   top: 30%;
   bottom: 0;
-}
+}*/
 h1, h2 {
   margin-top: 10px;
 }
