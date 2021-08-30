@@ -21,7 +21,14 @@ body {
 }
 .youtube {
   position: absolute;
-  right: -2%;
+  right: -4%;
+  top: 30%;
+  bottom: 0;
+}
+.youtube:hover {
+  transition: all 1s ease-in-out;
+  position: absolute;
+  right: 0;
   top: 30%;
   bottom: 0;
 }
