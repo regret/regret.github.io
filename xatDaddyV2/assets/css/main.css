@@ -13,8 +13,8 @@ body
 #app-cover
 {
     position: absolute;
-    top: 50%;
-    right: 0;
+    bottom: 2%;
+    right: 90%;
     left: 0;
     width: 430px;
     height: 100px;
